@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\opcodes">
+      <UniqueIdentifier>{b434544e-938a-44d4-bff6-de56a7564e75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jmp_abs.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="nop.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="illegal.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="lda_imm.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ldx_imm.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ldy_imm.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="tax.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="tay.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="txa.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="tya.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="inx.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="iny.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="dex.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="dey.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="sta_abs.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="beq.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="bne.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="clc.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="sec.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cluster65.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
