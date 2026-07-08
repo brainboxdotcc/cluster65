@@ -43,7 +43,7 @@ struct cpu_group
      *     ram[(addr * 4) + n]
      *
      * Padding avoids AVX2 64-bit gather reading past the end
-     * when fetching near $ffff.
+     * when fetching near &ffff.
      */
     alignas(32) uint8_t ram[(65536 * 4) + 8];
 };
