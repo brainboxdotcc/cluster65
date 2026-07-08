@@ -18,72 +18,75 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\opcodes\beq.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\bne.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\clc.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\dex.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\dey.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\illegal.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\inx.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\iny.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\jmp_abs.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\lda_imm.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\ldx_imm.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\ldy_imm.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\nop.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\sec.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\sta_abs.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\tax.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\tay.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\txa.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opcodes\tya.cpp">
+      <Filter>Source Files\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="jmp_abs.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="nop.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="illegal.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="lda_imm.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="ldx_imm.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="ldy_imm.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="tax.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="tay.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="txa.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="tya.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="inx.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="iny.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="dex.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="dey.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="sta_abs.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="beq.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="bne.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="clc.cpp">
-      <Filter>Source Files\opcodes</Filter>
-    </ClCompile>
-    <ClCompile Include="sec.cpp">
-      <Filter>Source Files\opcodes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="opcodes.h">
+    <ClInclude Include="include\cluster65.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cluster65.h">
+    <ClInclude Include="include\opcodes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

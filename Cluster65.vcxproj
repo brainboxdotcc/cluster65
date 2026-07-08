@@ -126,30 +126,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="beq.cpp" />
-    <ClCompile Include="bne.cpp" />
-    <ClCompile Include="clc.cpp" />
-    <ClCompile Include="dex.cpp" />
-    <ClCompile Include="dey.cpp" />
-    <ClCompile Include="illegal.cpp" />
-    <ClCompile Include="inx.cpp" />
-    <ClCompile Include="iny.cpp" />
-    <ClCompile Include="jmp_abs.cpp" />
-    <ClCompile Include="lda_imm.cpp" />
-    <ClCompile Include="ldx_imm.cpp" />
-    <ClCompile Include="ldy_imm.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="nop.cpp" />
-    <ClCompile Include="sec.cpp" />
-    <ClCompile Include="sta_abs.cpp" />
-    <ClCompile Include="tax.cpp" />
-    <ClCompile Include="tay.cpp" />
-    <ClCompile Include="txa.cpp" />
-    <ClCompile Include="tya.cpp" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cluster65.h" />
-    <ClInclude Include="opcodes.h" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\opcodes\beq.cpp" />
+    <ClCompile Include="src\opcodes\bne.cpp" />
+    <ClCompile Include="src\opcodes\clc.cpp" />
+    <ClCompile Include="src\opcodes\dex.cpp" />
+    <ClCompile Include="src\opcodes\dey.cpp" />
+    <ClCompile Include="src\opcodes\illegal.cpp" />
+    <ClCompile Include="src\opcodes\inx.cpp" />
+    <ClCompile Include="src\opcodes\iny.cpp" />
+    <ClCompile Include="src\opcodes\jmp_abs.cpp" />
+    <ClCompile Include="src\opcodes\lda_imm.cpp" />
+    <ClCompile Include="src\opcodes\ldx_imm.cpp" />
+    <ClCompile Include="src\opcodes\ldy_imm.cpp" />
+    <ClCompile Include="src\opcodes\nop.cpp" />
+    <ClCompile Include="src\opcodes\sec.cpp" />
+    <ClCompile Include="src\opcodes\sta_abs.cpp" />
+    <ClCompile Include="src\opcodes\tax.cpp" />
+    <ClCompile Include="src\opcodes\tay.cpp" />
+    <ClCompile Include="src\opcodes\txa.cpp" />
+    <ClCompile Include="src\opcodes\tya.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cluster65.h" />
+    <ClInclude Include="include\opcodes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
